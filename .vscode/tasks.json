@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "Run dev server",
+			"group": "build",
+			"detail": "webpack-dev-server --mode development"
+		},
+		{
+			"type": "npm",
+			"script": "build:dev",
+			"problemMatcher": [],
+			"label": "Build (dev)",
+			"detail": "webpack --mode development"
+		},
+		{
+			"type": "npm",
+			"script": "build:prod",
+			"problemMatcher": [],
+			"label": "Build (prod)",
+			"detail": "webpack --mode production"
+        },
+        {
+			"type": "npm",
+			"script": "package",
+			"problemMatcher": [],
+			"label": "Package",
+			"detail": "npm run-script build:prod && node postbuild.js"
+		}
+	]
+}
