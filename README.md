@@ -52,4 +52,5 @@ Bare bones setup to start a [JS13K game](https://js13kgames.com/).
 ## To do
 
 - Finish the types definitions for JS13K-ECS
-- Add types definitions for TinyMusic and either Kontra or TinyCanvas (depending on the used one)
+- Finish the types definitions for TinyMusic
+- Add types definitions for either Kontra or TinyCanvas (depending on the used one)

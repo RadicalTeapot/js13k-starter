@@ -33,7 +33,7 @@ class MoveSpritesSystem {
         this.selector = ecs.select(PositionComponent, MoveableComponent, SpriteComponent);
         // Create sound when wrapping sprite
         let note = new Note('C4 s');
-        this.seq_ = new Sequence(new AudioContext(), 240);
+        this.seq_ = new Sequence(null, 240);
         this.seq_.push(note);
         this.seq_.loop = false;
         this.seq_.gain.gain.value = 0.1;
